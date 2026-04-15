@@ -71,6 +71,10 @@ tela-login
 
 ---
 
+## Preview
+
+![Preview do projeto](screenshot.png)
+
 ##  Autora
 
 Desenvolvido por **Luana Victoria** 
