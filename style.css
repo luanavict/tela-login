@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bemvindo{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+}
+
+h1, p {
+    margin: 0px;
+    align-items: center;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centraliza vertical */
+    width: 100%;
+    max-width: 300px;
+    
+
+    background-color: #1e1b3a;
+    padding: 30px;
+    border-radius: 20px;
+    height: 300px;
+    border: 2px solid rgba(100, 100, 255, 0.2);
+    box-shadow: -5px 0 15px rgba(100, 100, 255, 0.4),
+    5px 0 15px rgba(100, 100, 255, 0.4);
+}
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center; 
+    
+}
+
+input{
+    background-color: rgb(77, 79, 90);
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    color: white;
+    outline: none;
+    
+}
+
+.input-senha {
+    position: relative;
+    display: block;
+}
+
+.input-senha input {
+    width: 100%;
+    padding-right: 40px;
+    
+}
+
+.input-senha .icone {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+button{
+    border-radius: 15px;
+    background-color: rgb(247, 22, 105);
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.recuperar {
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+::placeholder{
+    color: #ffff;
+}
+
+.recuperar:hover {
+    text-decoration: underline;
+}
+
+
+input:hover{
+    background-color: rgb(31, 65, 62);
+    border-color: rgb(3, 49, 82);
+    
+}
+
+input:focus {
+    border: 2px solid rgb(247, 22, 105);
+}
+
+button:hover{
+    border-color: rgb(3, 49, 82);
+    background-color: rgb(192, 81, 100) ;
+}
+
+@media (max-width: 600px){
+    main{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 900px){
+    main{
+        width: 70%;
+    }
+}

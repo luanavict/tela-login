@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="bemvindo">
+            <h1>Bem-vindo</h1>
+            <p>Por favor, insira seus dados</p>
+        </div>
+        <form>
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="&#128100 Email" required>
+
+            <div class="input-senha">
+                <input type="password" id="senha" placeholder="🔒 Senha" required>
+                <span class="icone" onclick="toggleSenha()">👁️</span>
+            </div>
+            <button type="submit">Entrar</button>
+            <a href="#" class="recuperar">esqueceu sua senha?</a>
+        </form>
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
