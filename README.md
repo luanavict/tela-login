@@ -73,7 +73,7 @@ tela-login
 
 ## Preview
 
-![Preview do projeto](screenshot.png)
+[![Preview](screenshot.png)](screenshot.png)
 
 ##  Autora
 
